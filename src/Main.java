@@ -34,7 +34,7 @@ public class Main {
 
         int xy = 60;
 
-        String str = sonuc >= xy ? "Gectiniz" : "Kaldiniz";
+        String str = sonuc >= xy ? "Gectiniz :)" : "Kaldiniz :(";
 
         System.out.print(str);
 
