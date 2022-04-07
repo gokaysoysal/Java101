@@ -30,11 +30,11 @@ public class Main {
 
         double  sonuc = toplam / 6;
 
-        System.out.println("Not Ortalamaniz:" + sonuc);
+        System.out.println("Not Ortalamaniz:" +  sonuc);
 
         int xy = 60;
 
-        String str = sonuc >= xy ? "gecti" : "kaldi";
+        String str = sonuc >= xy ? "Gectiniz" : "Kaldiniz";
 
         System.out.print(str);
 
