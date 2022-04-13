@@ -32,7 +32,7 @@ public class TicketPrice {
             }else if (age>=64 ) {
                 System.out.print(standart - yasli);
             }else{
-                System.out.print("Geçersiz giriş yaptınız!");
+                System.out.print("Gecersiz giris yaptiniz!");
             }
         }
         else if (type == 2){
@@ -45,7 +45,7 @@ public class TicketPrice {
             }else if (age>=64 ) {
                 System.out.print((yasli) - yasli * 0.2);
             }else{
-                System.out.print("Geçersiz giriş yaptınız!");
+                System.out.print("Gecersiz giris yaptiniz!");
             }
         }
     }
