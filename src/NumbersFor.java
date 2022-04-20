@@ -12,7 +12,7 @@ public class NumbersFor {
         System.out.print("Us olacak sayiyi girin: ");
         k = input.nextInt();
 
-        for (int y = 1; y<=k;y++){
+        for (int y=1; y<=k; y++){
             total *=i;
         }
         System.out.print(total);
