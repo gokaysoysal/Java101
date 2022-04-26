@@ -16,7 +16,7 @@ public class ExcellentNumber {
             }
         }
         if (sum==num){
-            System.out.print(num +" is excellent number!");
+            System.out.print(num + " is excellent number!");
         }else
             System.out.print(num + " is not excellent number!");
     }
