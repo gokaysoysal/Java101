@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExcellentNumber {
+public class PerfectNumber {
     public static void main(String[] args) {
         int num,sum=0;
 
@@ -16,8 +16,8 @@ public class ExcellentNumber {
             }
         }
         if (sum==num){
-            System.out.print(num + " is excellent number!");
+            System.out.print(num + " is perfect number!");
         }else
-            System.out.print(num + " is not excellent number!");
+            System.out.print(num + " is not perfect number!");
     }
 }
