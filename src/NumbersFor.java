@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumbersFor {
 
     public static void main(String[] args) {
-        int i, k, total =1;
+        int i, k, total = 1;
 
         Scanner input = new Scanner(System.in);
 
@@ -12,9 +12,10 @@ public class NumbersFor {
         System.out.print("Us olacak sayiyi girin: ");
         k = input.nextInt();
 
-        for (int y=1; y<=k; y++){
-            total *=i;
+        for (int y = 1; y <= k; y++) {
+            total *= i;
         }
         System.out.print(total);
 
-    }}
+    }
+}

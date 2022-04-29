@@ -1,11 +1,11 @@
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class BmiCalculator {
     public static void main(String[] args) {
 
 
         float height, weight;
-        double  bodyMassIndex;
+        double bodyMassIndex;
 
         Scanner input = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class BmiCalculator {
         System.out.print("Please enter your weight in kg : ");
         weight = input.nextFloat();
 
-        bodyMassIndex = weight / (height * height) ;
+        bodyMassIndex = weight / (height * height);
 
         System.out.println("Your body mass index is : " + bodyMassIndex);
 

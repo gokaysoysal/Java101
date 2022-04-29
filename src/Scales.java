@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Scales {
     public static void main(String[] args) {
 
-        double pearP = 2.14, appleP = 3.67, tomatoP = 1.11 , bananaP = 0.95, eggplantP = 5.00, totalItem, vat = 0.18, vatT;
+        double pearP = 2.14, appleP = 3.67, tomatoP = 1.11, bananaP = 0.95, eggplantP = 5.00, totalItem, vat = 0.18, vatT;
         double pearK, appleK, tomatoK, bananaK, eggplantK, total;
 
 

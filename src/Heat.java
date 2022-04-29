@@ -12,16 +12,14 @@ public class Heat {
 
         if (heat < 5) {
             System.out.print("Kayak yapabilirsiniz.");
-        }
-        else if (heat <=25 ) {
-            if (heat < 15 ) {
+        } else if (heat <= 25) {
+            if (heat < 15) {
                 System.out.println("Sinemaya gidebilirsiniz.");
             }
-            if ( heat >= 10) {
+            if (heat >= 10) {
                 System.out.println("Piknige gidebilirsiniz.");
             }
-        }
-        else
+        } else
             System.out.print("Yuzmeye gidebilirsiniz.");
 
     }

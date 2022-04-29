@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Değişkenleri oluştur
-        int mat,fizik,kimya,turkce,tarih,muzik;
+        int mat, fizik, kimya, turkce, tarih, muzik;
 
         Scanner inp = new Scanner(System.in);
 
@@ -26,11 +26,11 @@ public class Main {
         System.out.print("Muzik Notunuz: ");
         muzik = inp.nextInt();
 
-        int  toplam = mat + fizik + kimya + turkce + tarih + muzik;
+        int toplam = mat + fizik + kimya + turkce + tarih + muzik;
 
-        double  sonuc = toplam / 6;
+        double sonuc = toplam / 6;
 
-        System.out.println("Not Ortalamaniz:" +  sonuc);
+        System.out.println("Not Ortalamaniz:" + sonuc);
 
         int xy = 60;
 

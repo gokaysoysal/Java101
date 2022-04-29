@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Zodiac {
     public static void main(String[] args) {
 
-        int month,day;
+        int month, day;
         String burc = "";
         boolean isError = false;
 
@@ -14,74 +14,80 @@ public class Zodiac {
         System.out.print("Dogdugunuz gun: ");
         day = input.nextInt();
 
-        switch (month){
+        switch (month) {
             case 1:
-                if (day>=1 && day<=31){
-                    if (day<=22){
+                if (day >= 1 && day <= 31) {
+                    if (day <= 22) {
                         burc = "oglak";
-                    }else
+                    } else
                         burc = "kova";
 
-            }   else {
+                } else {
                     isError = true;
-                }break;
+                }
+                break;
             case 2:
-                if (day>=1 && day<=31){
-                    if (day<=20){
+                if (day >= 1 && day <= 31) {
+                    if (day <= 20) {
                         burc = "balik";
-                    }else
+                    } else
                         burc = "koc";
 
-                }   else {
+                } else {
                     isError = true;
-                }break;
+                }
+                break;
             case 3:
-                if (day>=1 && day<=31){
-                    if (day<=21){
+                if (day >= 1 && day <= 31) {
+                    if (day <= 21) {
                         burc = "boga";
-                    }else
+                    } else
                         burc = "ikizler";
 
-                }   else {
+                } else {
                     isError = true;
-                }break;
+                }
+                break;
             case 4:
-                if (day>=1 && day<=31){
-                    if (day<=23){
+                if (day >= 1 && day <= 31) {
+                    if (day <= 23) {
                         burc = "yengec";
-                    }else
+                    } else
                         burc = "aslan";
 
-                }   else {
+                } else {
                     isError = true;
-                }break;
+                }
+                break;
             case 5:
-                if (day>=1 && day<=31){
-                    if (day<=23){
+                if (day >= 1 && day <= 31) {
+                    if (day <= 23) {
                         burc = "basak";
-                    }else
+                    } else
                         burc = "terazi";
 
-                }   else {
+                } else {
                     isError = true;
-                }break;
+                }
+                break;
             case 6:
-                if (day>=1 && day<=31){
-                    if (day<=23){
+                if (day >= 1 && day <= 31) {
+                    if (day <= 23) {
                         burc = "akrep";
-                    }else
+                    } else
                         burc = "yay";
 
-                }   else {
+                } else {
                     isError = true;
-                }break;
+                }
+                break;
             default:
                 isError = true;
 
         }
         if (isError) {
             System.out.print("Hatali giris yaptiniz. Tekrar deneyiniz.");
-        }else
+        } else
             System.out.print("Burcunuz: " + burc);
     }
 }

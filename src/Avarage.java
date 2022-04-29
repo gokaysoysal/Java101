@@ -23,16 +23,15 @@ public class Avarage {
         System.out.print("Muzik Notunuz: ");
         muzik = inp.nextInt();
 
-        double avarage = (mat + fizik + kimya + turkce + muzik)/5;
+        double avarage = (mat + fizik + kimya + turkce + muzik) / 5;
 
         if (avarage <= 55) {
 
             System.out.println("Sinifta kaldiniz!");
 
-        }
-        else {
+        } else {
             System.out.println("Tebrikler, sinifi gectiniz!");
         }
-            System.out.println("Ortalama: " + avarage);
+        System.out.println("Ortalama: " + avarage);
     }
 }

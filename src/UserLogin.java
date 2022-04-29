@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class UserLogin {
     public static void main(String[] args) {
 
-        String userName,password;
+        String userName, password;
 
         Scanner inp = new Scanner(System.in);
 
@@ -16,8 +16,7 @@ public class UserLogin {
 
         if (userName.equals("kodluyoruz") && password.equals("org")) {
             System.out.print("Giris basarili!");
-        }
-        else    {
+        } else {
             System.out.print("Bilgileriniz yanlis!");
         }
     }
